@@ -1,0 +1,21 @@
+{
+  "name": "random_quote_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch",
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://astomak.github.io/random_qoute_generator",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.7.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

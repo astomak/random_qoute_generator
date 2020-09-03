@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+.btn-qoute {
+    @apply bg-black text-white rounded-lg px-2 py-1;
+}
+.btn-qoute:active {
+    @apply bg-black;
+}
+.btn-qoute:focus {
+    @apply outline-none shadow-outline;
+}
+@tailwind utilities;

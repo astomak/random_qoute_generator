@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
+body {
+    background-image: url(background.jpg);
+    font-family: 'Long Cang', cursive;
+}
+
+.btn-qoute, .btn-qoute:hover, .btn-qoute:focus{
+    box-shadow: 0 0.3rem rgb(121, 121, 121);
+}
+
+.btn-qoute:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgb(255, 255, 255);
+}
+
+.shadow-large {
+    box-shadow: 0 10px 10px 20px rgba(121, 121, 121, 0.65);
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #333; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
