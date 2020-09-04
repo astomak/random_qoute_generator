@@ -17,10 +17,11 @@ const removeLoader = () => {
 
 // Get Qoutes from API
 const getQoutefromAPI = async () => {
-    const apiURL = "https://quotes.stormconsultancy.co.uk/random.json";
+    const proxyURL = "https://polar-sierra-07783.herokuapp.com/";
+    const apiURL = "http://quotes.stormconsultancy.co.uk/random.json";
     try {
         showLoader();
-        const response = await fetch(apiURL);
+        const response = await fetch(proxyURL + apiURL);
         const data = await response.json();
         author.textContent = '- ' + data["author"];
         qouteText.textContent = data["quote"];
