@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d public",
     "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch",
     "build": "postcss css/tailwind.css -o public/build/tailwind.css"
   },
