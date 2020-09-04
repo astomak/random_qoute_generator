@@ -17,7 +17,7 @@ const removeLoader = () => {
 
 // Get Qoutes from API
 const getQoutefromAPI = async () => {
-    const apiURL = "http://quotes.stormconsultancy.co.uk/random.json";
+    const apiURL = "https://quotes.stormconsultancy.co.uk/random.json";
     try {
         showLoader();
         const response = await fetch(apiURL);
